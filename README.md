@@ -10,4 +10,4 @@ Here will be configured my profile to pwsh
 ## History
 
 Here will be created my file.txt to my history 
- 
+[HISTORY](https://github.com/ThiagoDominguez/personal-repo/blob/pwsh_config/historial.txt)
