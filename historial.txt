@@ -1,0 +1,976 @@
+**********************
+PowerShell transcript start
+Start time: 20231017200051
+Username: DESKTOP-U9C8NE9\Credg
+RunAs User: DESKTOP-U9C8NE9\Credg
+Configuration Name: 
+Machine: DESKTOP-U9C8NE9 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Program Files\WindowsApps\Microsoft.PowerShell_7.3.8.0_x64__8wekyb3d8bbwe\pwsh.dll
+Process ID: 2932
+PSVersion: 7.3.8
+PSEdition: Core
+GitCommitId: 7.3.8
+OS: Microsoft Windows 10.0.19045
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.10032.0, 6.0.0, 6.1.0, 6.2.0, 7.0.0, 7.1.0, 7.2.0, 7.3.8
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is C:\Users\Credg\Documents\PowerShell\historial.txt
+@Credg ➜ ~
+PS>cd d:
+@Credg ➜ D:\
+PS>. $PROFILE
+@Credg ➜ D:\
+PS>ls
+
+    Directory: D:\
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          17/10/2023    16:35                Archivos de programa
+d----          14/10/2023    17:28                Credg
+d----          13/10/2023    15:50                Cursos
+d----          14/10/2023    17:29                DeliveryOptimization
+d-r--          13/10/2023    18:24                Desarrollo de Software
+d-r--          17/10/2023    16:33                Descargas
+d-r--          14/10/2023    16:44                Documentos
+d-r--          14/10/2023    16:45                Imágenes
+d----          14/10/2023    17:28                Program Files
+d----          13/10/2023    21:56                SQL
+d-r--          17/10/2023    19:53                WindowsApps
+d----          14/10/2023    17:32                WpSystem
+d----          17/10/2023    15:47                WUDownloadCache
+d----          13/10/2023    22:09                xampp
+d----          14/10/2023    18:01                xampp2
+-a---            1/3/2023    16:31        1036750 curriculumDesarrolloweb (1).docx
+
+@Credg ➜ D:\
+PS>. $PROFILE
+
+Show-HistoryList: C:\Users\Credg\Documents\PowerShell\Microsoft.PowerShell_profile.ps1:6
+Line |
+   6 |  Show-HistoryList
+     |  ~~~~~~~~~~~~~~~~
+     | The term 'Show-HistoryList' is not recognized as a name of a cmdlet, function, script file, or executable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+
+Show-HistoryList: C:\Users\Credg\Documents\PowerShell\Microsoft.PowerShell_profile.ps1:6
+Line |
+   6 |  Show-HistoryList
+     |  ~~~~~~~~~~~~~~~~
+     | The term 'Show-HistoryList' is not recognized as a name of a cmdlet, function, script file, or executable
+     | program. Check the spelling of the name, or if a path was included, verify that the path is correct and try
+     | again.
+
+@Credg ➜ D:\
+PS>. $PROFILE
+1. Get-ExecutionPolicy
+2. $Env:USERPROFILE\Documents\PowerShell\historial.txt
+3. New-Item -Path "$Env:USERPROFILE\Documents\PowerShell" -ItemType Directory -Force
+4. $HistorialPath = "$Env:USERPROFILE\Documents\PowerShell\historial.txt"
+5. Start-Transcript -Path $HistorialPath
+6. cd d:
+7. . $PROFILE
+8. ls
+9. . $PROFILE
+@Credg ➜ D:\
+PS>. $PROFILE
+
+Get-ListView: C:\Users\Credg\Documents\PowerShell\Microsoft.PowerShell_profile.ps1:5
+Line |
+   5 |  Get-ListView
+     |  ~~~~~~~~~~~~
+     | The term 'Get-ListView' is not recognized as a name of a cmdlet, function, script file, or executable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+
+Get-ListView: C:\Users\Credg\Documents\PowerShell\Microsoft.PowerShell_profile.ps1:5
+Line |
+   5 |  Get-ListView
+     |  ~~~~~~~~~~~~
+     | The term 'Get-ListView' is not recognized as a name of a cmdlet, function, script file, or executable program.
+     | Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+
+@Credg ➜ D:\
+PS>Install-Module PSReadLine -Force
+@Credg ➜ D:\
+PS>Set-PSReadLineOption -PredictionViewStyle ListView
+@Credg ➜ D:\
+PS>cd "$env:POSH_THEMES_PATH"
+@Credg ➜ themes
+PS>explorer
+@Credg ➜ themes
+PS>. explorer
+@Credg ➜ themes
+PS>pwd
+
+Path
+----
+C:\Users\Credg\AppData\Local\Programs\oh-my-posh\themes
+
+@Credg ➜ themes
+PS>. $PROFILE
+ Credg    themes                                                     祥 1.584s   100   Oct 17   20:29 
+  ]0;themes
+ Credg    themes                                                                     祥 0ms   100   Oct 17   20:29 
+  ]0;themes
+PS>cd d:
+ Credg    D:\                                                                        祥 4ms   100   Oct 17   20:29 
+  ]0;D:\
+PS>ls
+
+    Directory: D:\
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          17/10/2023    16:35                Archivos de programa
+d----          14/10/2023    17:28                Credg
+d----          13/10/2023    15:50                Cursos
+d----          14/10/2023    17:29                DeliveryOptimization
+d-r--          13/10/2023    18:24                Desarrollo de Software
+d-r--          17/10/2023    20:27                Descargas
+d-r--          14/10/2023    16:44                Documentos
+d-r--          14/10/2023    16:45                Imágenes
+d----          14/10/2023    17:28                Program Files
+d----          13/10/2023    21:56                SQL
+d-r--          17/10/2023    19:53                WindowsApps
+d----          14/10/2023    17:32                WpSystem
+d----          17/10/2023    15:47                WUDownloadCache
+d----          13/10/2023    22:09                xampp
+d----          14/10/2023    18:01                xampp2
+-a---            1/3/2023    16:31        1036750 curriculumDesarrolloweb (1).docx
+
+ Credg    D:\                                                                      祥 146ms   100   Oct 17   20:29 
+  ]0;D:\
+PS>cd '.\Desarrollo de Software\'
+ Credg    Desarrollo de Software                                                    祥 33ms   100   Oct 17   20:29 
+  ]0;Desarrollo de Software
+PS>ls
+
+    Directory: D:\Desarrollo de Software
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          13/10/2023    16:14                3er año
+d----          13/10/2023    16:16                biblioteca-ministerio
+d----          13/10/2023    16:16                calculadora-react
+d----          13/10/2023    17:31                Curso_React_Yirsis
+d----          13/10/2023    16:16                curso-de-node-js
+d----          13/10/2023    16:17                curso-express-js
+d----          13/10/2023    17:08                Curso-React-Fernando-Herrera
+d----          13/10/2023    17:20                curso-sql-avanzado_jacklyon
+d----          13/10/2023    17:31                Escuela-JS
+d----          13/10/2023    17:32                Fuentes
+d----          13/10/2023    17:42                Gif-Search-App
+d----          13/10/2023    17:50                gifsearch-app
+d----          13/10/2023    17:50                lab-programacion
+d----           28/3/2023    20:16                lab-programacion-II
+d----          13/10/2023    17:50                learning-books
+d----          13/10/2023    17:51                openBootcamp
+d----          13/10/2023    18:20                proyecto-PPIII
+d----          13/10/2023    18:20                prueba
+d----          13/10/2023    18:21                registro-clientes_js-mysql
+d----          13/10/2023    18:24                TDD-Vitest
+d----          13/10/2023    18:32                test-pnpm
+-a---           15/3/2023    16:30           1854 themes-ohmyposh.txt
+
+ Credg    Desarrollo de Software                                                    祥 57ms   100   Oct 17   20:29 
+  ]0;Desarrollo de Software
+PS>cd .\registro-clientes_js-mysql\
+ Credg    registro-clientes_js-mysql     ≢                           祥 37ms   18      100   Oct 17   20:29 
+  ]0;registro-clientes_js-mysql
+ Credg    registro-clientes_js-mysql     ≢                            祥 0ms   18      100   Oct 17   20:30 
+  ]0;registro-clientes_js-mysql
+ Credg    registro-clientes_js-mysql     ≢                            祥 0ms   18      100   Oct 17   20:30 
+  ]0;registro-clientes_js-mysql
+ Credg    registro-clientes_js-mysql     ≢                            祥 0ms   18      100   Oct 17   20:30 
+  ]0;registro-clientes_js-mysql
+PS>git status
+fatal: detected dubious ownership in repository at 'D:/Desarrollo de Software/registro-clientes_js-mysql'
+'D:/Desarrollo de Software/registro-clientes_js-mysql' is owned by:
+        'S-1-5-32-544'
+but the current user is:
+        'S-1-5-21-3667361332-3712204380-1039175162-1001'
+To add an exception for this directory, call:
+
+        git config --global --add safe.directory 'D:/Desarrollo de Software/registro-clientes_js-mysql'
+ Credg    registro-clientes_js-mysql     ≢   128                    祥 198ms   18      100   Oct 17   20:30 
+  ]0;registro-clientes_js-mysql
+PS> git config --global --add safe.directory 'D:/Desarrollo de Software/registro-clientes_js-mysql'
+
+ Credg    registro-clientes_js-mysql    main ≡                      祥 215ms   18      100   Oct 17   20:31 
+  ]0;registro-clientes_js-mysql
+PS>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+ Credg    registro-clientes_js-mysql    main ≡                      祥 229ms   18      100   Oct 17   20:31 
+  ]0;registro-clientes_js-mysql
+PS>git branch
+* main
+  master
+ Credg    registro-clientes_js-mysql    main ≡                      祥 654ms   18      100   Oct 17   20:31 
+  ]0;registro-clientes_js-mysql
+PS>. $PROFILE
+┌ @Credg in ~/registro-clientes_js-mysql on main                                                                   20:35:52  1.713s 
+└$]0;Credg ➔ 📁registro-clientes_js-mysql
+PS>. $PROFILE
+Credg D:  Desarrollo de Software  registro-clientes_js-mysql  main ≡ 
+PS>. $PROFILE
+[1B┏[﩯]-[  D:\Desarrollo de Software\registro-clientes_js-mysql]-[main]-[18.18.2 ]-[1.73s]~                            ~[20:40:28]┐
+┖[Credg@DESKTOP-U9C8NE9]-$ 7                                                                                                       <┘8
+PS>. $PROFILE
+
+╭─ D:  Desarrollo de Software  registro-clientes_js-mysql 
+│                                                                                main ≡  1s 595ms   08:41 PM | Tue Oct 17  
+╰─ $ ]0;registro-clientes_js-mysql
+PS>ls
+
+    Directory: D:\Desarrollo de Software\registro-clientes_js-mysql
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          13/10/2023    18:20                database
+d----          13/10/2023    18:20                node_modules
+d----          13/10/2023    18:21                src
+-a---           26/9/2023    18:23           2534 .gitignore
+-a---           26/9/2023    18:23            572 package.json
+-a---           26/9/2023    18:23          28779 pnpm-lock.yaml
+
+
+╭─ D:  Desarrollo de Software  registro-clientes_js-mysql 
+│                                                                                    main ≡  31ms   08:41 PM | Tue Oct 17  
+╰─ $ ]0;registro-clientes_js-mysql
+PS>pwd
+
+Path
+----
+D:\Desarrollo de Software\registro-clientes_js-mysql
+
+
+╭─ D:  Desarrollo de Software  registro-clientes_js-mysql 
+│                                                                                     main ≡  5ms   08:41 PM | Tue Oct 17  
+╰─ $ ]0;registro-clientes_js-mysql
+PS>. $PROFILE
+░  ⎬◖🌟 Credg☢️DESKTOP-U9C8NE9.os4techno.com 👀◗◖ 🧠 = pwsh ◗◖ 🗺️ = D:\..\registro-clientes_js-mysql ◗   main ≡  npm   18.18.2
+░🎼▶️⎬
+PS>. $PROFILE
+░  ⎬◖ Credg👽@DESKTOP-U9C8NE9🔊 ♬♩♫♪♬♩ ◗◖ # = pwsh ◗◖  = D:\..\registro-clientes_js-mysql ◗   main ≡            npm   18.18.2
+░ ⚡⎬
+PS>. $PROFILE
+░  ⎬◖ Credg👽@DESKTOP-U9C8NE9🔊 ♬♩♫♪♬♩ ◗◖ # = pwsh ◗◖  = D:\..\registro-clientes_js-mysql ◗   main ≡            npm   18.18.2
+░ ⚡⎬
+PS>. $PROFILE
+╭─ Credg pwshD:易Desarrollo de Software易registro-clientes_js-mysql   main ≡  羽1.58s   100%  CPU: 50% | RAM: 4/8GB   9:24 PM 
+╰─❯$]0;pwsh in registro-clientes_js-mysql
+PS>. $PROFILE
+ D:/Desarrollo de Software/registro-clientes_js-mysql main
+  
+PS>pwd
+
+Path
+----
+D:\Desarrollo de Software\registro-clientes_js-mysql
+
+ D:/Desarrollo de Software/registro-clientes_js-mysql main
+  
+PS>ls
+
+    Directory: D:\Desarrollo de Software\registro-clientes_js-mysql
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          13/10/2023    18:20                database
+d----          13/10/2023    18:20                node_modules
+d----          13/10/2023    18:21                src
+-a---           26/9/2023    18:23           2534 .gitignore
+-a---           26/9/2023    18:23            572 package.json
+-a---           26/9/2023    18:23          28779 pnpm-lock.yaml
+
+ D:/Desarrollo de Software/registro-clientes_js-mysql main
+  
+PS>ls
+
+    Directory: D:\Desarrollo de Software\registro-clientes_js-mysql
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          13/10/2023    18:20                database
+d----          13/10/2023    18:20                node_modules
+d----          13/10/2023    18:21                src
+-a---           26/9/2023    18:23           2534 .gitignore
+-a---           26/9/2023    18:23            572 package.json
+-a---           26/9/2023    18:23          28779 pnpm-lock.yaml
+
+ D:/Desarrollo de Software/registro-clientes_js-mysql main
+  
+PS>. $PROFILE
+ ● registro-clientes_js-mysql git:( main)
+PS>ls
+
+    Directory: D:\Desarrollo de Software\registro-clientes_js-mysql
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          13/10/2023    18:20                database
+d----          13/10/2023    18:20                node_modules
+d----          13/10/2023    18:21                src
+-a---           26/9/2023    18:23           2534 .gitignore
+-a---           26/9/2023    18:23            572 package.json
+-a---           26/9/2023    18:23          28779 pnpm-lock.yaml
+
+ ● registro-clientes_js-mysql git:( main)
+PS>ls
+
+    Directory: D:\Desarrollo de Software\registro-clientes_js-mysql
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          13/10/2023    18:20                database
+d----          13/10/2023    18:20                node_modules
+d----          13/10/2023    18:21                src
+-a---           26/9/2023    18:23           2534 .gitignore
+-a---           26/9/2023    18:23            572 package.json
+-a---           26/9/2023    18:23          28779 pnpm-lock.yaml
+
+ ● registro-clientes_js-mysql git:( main)
+PS>. $PROFILE
+╭─ D:/..../registro-clientes_js-mysql [  main ≡]                                         1.529s │    18.18.2 │  pwsh ─
+╰─
+PS>. $PROFILE
+╭─ D:/..../registro-clientes_js-mysql  [  main ≡]                                       1.497s │    18.18.2 │  pwsh ─
+╰─
+PS>ls
+
+    Directory: D:\Desarrollo de Software\registro-clientes_js-mysql
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          13/10/2023    18:20                database
+d----          13/10/2023    18:20                node_modules
+d----          13/10/2023    18:21                src
+-a---           26/9/2023    18:23           2534 .gitignore
+-a---           26/9/2023    18:23            572 package.json
+-a---           26/9/2023    18:23          28779 pnpm-lock.yaml
+
+╭─ D:/..../registro-clientes_js-mysql  [  main ≡]                                         27ms │    18.18.2 │  pwsh ─
+╰─
+PS>. $PROFILE
+  registro-clientes_js-mysql   main   1.0.0   18.18.2 
+PS>. $PROFILE
+D://registro-clientes_js-mysql ❯ main ≡ ❯   
+21:44:49 ❯
+PS>. $PROFILE
+╭  Credg@DESKTOP-U9C8NE9  D:/Desarrollo de Software/registro-clientes_js-mysql   main ≡  52% 4/8GB -1.528s   
+╰ 21:46:39  ]0;pwsh - registro-clientes_js-mysql 7                                                                                                                  8
+PS>git checkout master
+Switched to branch 'master'
+╭  Credg@DESKTOP-U9C8NE9  D:/Desarrollo de Software/registro-clientes_js-mysql   master ≢  51% 4/8GB -422ms   
+╰ 21:47:01  ]0;pwsh - registro-clientes_js-mysql 7                                                                                                                  8
+PS>git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+╭  Credg@DESKTOP-U9C8NE9  D:/Desarrollo de Software/registro-clientes_js-mysql   main ≡  51% 4/8GB -301ms   
+╰ 21:47:09  ]0;pwsh - registro-clientes_js-mysql 7                                                                                                                  8
+PS>. $PROFILE
+╭─    pwsh  registro-clientes_js-mysql                                      1s 599ms    18.18.2   main  Credg
+╰─❯❯ 
+PS>pwd
+
+Path
+----
+D:\Desarrollo de Software\registro-clientes_js-mysql
+
+╭─    pwsh  registro-clientes_js-mysql                                           8ms    18.18.2   main  Credg
+╰─❯❯ 
+PS>ls
+
+    Directory: D:\Desarrollo de Software\registro-clientes_js-mysql
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          13/10/2023    18:20                database
+d----          13/10/2023    18:20                node_modules
+d----          13/10/2023    18:21                src
+-a---           26/9/2023    18:23           2534 .gitignore
+-a---           26/9/2023    18:23            572 package.json
+-a---           26/9/2023    18:23          28779 pnpm-lock.yaml
+
+╭─    pwsh  registro-clientes_js-mysql                                          71ms    18.18.2   main  Credg
+╰─❯❯ 
+PS>. $PROFILE
+┌ registro-clientes_js-mysql  main≡  羽 1.526s⠀                                                                            21:54:42└ ->  ]9;9;D:\Desarrollo de Software\registro-clientes_js-mysql\
+PS>. $PROFILE
+┌ registro-clientes_js-mysql  main≡  羽 1.541s⠀                                                                            21:54:59└ ->  ]9;9;D:\Desarrollo de Software\registro-clientes_js-mysql\
+PS>. $PROFILE
+┏[D:\Desarrollo de Software\registro-clientes_js-mysql][ main≡]
+┖[❯
+PS>. $PROFILE
+Credg@DESKTOP-U9C8NE9  registro-clientes_js-mysql  truemain  $]0;pwsh in registro-clientes_js-mysql
+PS>. $PROFILE
+    registro-clientes_js-mysql  main ≡  羽1.519s 
+🧛 
+PS>. $PROFILE
+ D:\Desarrollo de Software\registro-clientes_js-mysql  18.18.2 on main 
+└─ 
+PS>. $PROFILE
+ 22:07   registro-clientes_js-mysql   main ≡    
+PS>Get-PoshThemes
+   __  _____ _      ___  ___       ______         _      __
+  / / |  _  | |     |  \/  |       | ___ \       | |     \ \
+ / /  | | | | |__   | .  . |_   _  | |_/ /__  ___| |__    \ \
+< <   | | | | '_ \  | |\/| | | | | |  __/ _ \/ __| '_ \    > >
+ \ \  \ \_/ / | | | | |  | | |_| | | | | (_) \__ \ | | |  / /
+  \_\  \___/|_| |_| \_|  |_/\__, | \_|  \___/|___/_| |_| /_/
+                             __/ |
+                            |___/
+Theme: 1_shell
+
+  Credg on Tuesday at 10:09 PM    main ≡                                                        0s  MEM: 49% (4/8GB)
+  [m{  D:  Desarrollo de Software  registro-clientes_js-mysql }  ]0;registro-clientes_js-mysql
+
+Theme: agnoster.minimal
+Credg@DESKTOP-U9C8NE9  D:  Desarrollo de Software  registro-clientes_js-mysql main ≡  
+
+Theme: agnoster
+ Credg@DESKTOP-U9C8NE9  D:    registro-clientes_js-mysql  main 
+
+Theme: agnosterplus
+ Credg@DESKTOP-U9C8NE9  D:    registro-clientes_js-mysql  main  7                                       22:09:43 8
+
+Theme: aliens
+ Credg@DESKTOP-U9C8NE9  D:\Desarrollo de Software\registro-clientes_js-mysql  main 
+
+Theme: amro
+ Credg on  D:/Desarrollo de Software/registro-clientes_js-mysql  main 
+# 
+
+Theme: angularic
+ Credg    registro-clientes_js-mysql    main ≡           祥 0ms   18      100   Oct 17   22:09 
+  ]0;registro-clientes_js-mysql
+
+Theme: atomic
+╭─ pwsh  registro-clientes_js-mysql    main ≡  0ms⠀                 18.18.2     100   17,22:09 
+╰─ 
+
+Theme: atomicBit
+╭─[Credg@DESKTOP-U9C8NE9]─[D:\..\registro-clientes_js-mysql]                       (   18.18.2)()─[ 100%]─[17,22:09]
+╰─[ main]- 
+
+Theme: avit
+D:\Desarrollo de Software\registro-clientes_js-mysql main 
+ 
+
+Theme: ballerini
+  registro-clientes_js-mysql   main   1.0.0   18.18.2 
+
+Theme: blue-owl
+  D:  ...  registro-clientes_js-mysql  main  0s                          Credg / DESKTOP-U9C8NE9  22:09:53 
+❯ ]0;registro-clientes_js-mysql @ DESKTOP-U9C8NE9
+
+Theme: blueish
+   Credg@DESKTOP-U9C8NE9  100    registro-clientes_js-mysql   main   18.18.2   
+➜ 
+
+Theme: bubbles
+                                                                Credg  registro-clientes_js-mysql main   100
+❯
+
+Theme: bubblesextra
+                                                                  registro-clientes_js-mysql   main ≡    100
+Credg ❯
+
+Theme: bubblesline
+Credg ❯ 7                                                              registro-clientes_js-mysql main  ● 1008
+
+Theme: capr4n
+ Credg  D:  Desarrollo de Software  registro-clientes_js-mysql  main ]0;Credg ➔ 📁registro-clientes_js-mysql
+
+Theme: catppuccin_frappe
+ Credg@DESKTOP-U9C8NE9 D:\....\registro-clientes_js-mysql  main 
+
+Theme: catppuccin_latte
+ Credg@DESKTOP-U9C8NE9 D:\....\registro-clientes_js-mysql  main 
+
+Theme: catppuccin_macchiato
+ Credg@DESKTOP-U9C8NE9 D:\....\registro-clientes_js-mysql  main 
+
+Theme: catppuccin_mocha
+ Credg@DESKTOP-U9C8NE9 D:\....\registro-clientes_js-mysql  main 
+
+Theme: catppuccin
+ Credg@DESKTOP-U9C8NE9 D:\....\registro-clientes_js-mysql  main
+
+Theme: cert
+Credg  registro-clientes_js-mysql  git(main)  22:09 
+
+Theme: chips
+ ../Desarrollo de Software/registro-clientes_js-mysql  main                          22:09 (10/17) ~  100%
+ 18.18.2 ❯]0;registro-clientes_js-mysql (pwsh)
+
+Theme: cinnamon
+ Credg@DESKTOP-U9C8NE9   registro-clientes_js-mysql   main   
+
+Theme: clean-detailed
+
+   pwsh MEM: 49% | 4/8GB   0ms                                                                   main ≡ 
+╭─ ♥ 22:09 | D:     registro-clientes_js-mysql 
+╰─ ]0;registro-clientes_js-mysql
+
+Theme: cloud-context
+  01:09:59   registro-clientes_js-mysql  
+  22:10:00  registro-clientes_js-mysql main 
+ > ]0;[ registro-clientes_js-mysql ] registro-clientes_js-mysql
+
+Theme: cloud-native-azure
+ Credg@DESKTOP-U9C8NE9    registro-clientes_js-mysql   main ≡               pwsh   100   22:10:00 
+ ~ ]0;pwsh in registro-clientes_js-mysql
+
+Theme: cobalt2
+D:\Desarrollo de Software\registro-clientes_js-mysql  main 
+
+Theme: collabazure
+░  ⎬◖🌟 Credg☢️DESKTOP-U9C8NE9.os4techno.com 👀◗◖ 🧠 = pwsh ◗◖ 🗺️ = D:\..\registro-clientes_js-mysql ◗   main ≡  npm   18.18.2
+░🎼▶️⎬
+
+Theme: craver
+   22:10:02  registro-clientes_js-mysql  main 
+➜ ]0;registro-clientes_js-mysql
+
+Theme: custom.minimal
+Credg D:  Desarrollo de Software  registro-clientes_js-mysql  main ≡ 
+
+Theme: cyberpunk
+
+╭─ D:  Desarrollo de Software  registro-clientes_js-mysql 
+│                                                                        main ≡  0ms   10:10 PM | Tue Oct 17  
+╰─ $ ]0;registro-clientes_js-mysql
+
+Theme: darkblood
+┏[Credg][main]
+┖[D:\Desarrollo de Software\registro-clientes_js-mysql]>
+
+Theme: di4am0nd
+Credg's registro-clientes_js-mysql/ on main ≡ via  18.18.2                                            RAM:4/8GB ┋ 0ms 
+⮞ 
+
+Theme: dracula
+    registro-clientes_js-mysql  main ≡  羽0ms 
+🧛 
+
+Theme: dualsimplicity
+╭─    pwsh  registro-clientes_js-mysql                              0ms    18.18.2   main  Credg
+╰─❯❯ 
+
+Theme: easy-term
+
+╭─    🏠   registro-clientes_js-mysql   main ≡                     | RAM: 4/8GB |  18.18.2 |    ⏰  22:10:12 
+╰─
+
+Theme: elegance-dracula
+╭─ D:/..../registro-clientes_js-mysql [  main ≡]                               0ms │    18.18.2 │  pwsh ─
+╰─
+
+Theme: elegance-silvermist
+╭─ D:/..../registro-clientes_js-mysql  [  main ≡]                             0ms │    18.18.2 │  pwsh ─
+╰─
+
+Theme: emodipt-extend
+
+[22:10]  Shell  main ≡                                                                                           0ms 
+ D:\Desarrollo de Software\registro-clientes_js-mysql
+❯
+
+Theme: emodipt
+[22:10:20] D:\..\registro-clientes_js-mysql on main ❯ 
+
+Theme: fbls
+Credg@DESKTOP-U9C8NE9  registro-clientes_js-mysql  truemain  $]0;pwsh in registro-clientes_js-mysql
+
+Theme: fish
+ Credg@DESKTOP-U9C8NE9  D:  Desarrollo de Software  registro-clientes_js-mysql  main  
+
+Theme: free-ukraine
+  D:\..\registro-clientes_js-mysql    main ≡   ♥                         100%   0ms   17,22:10
+   Credg ]0; registro-clientes_js-mysql 7                                                                                              Ukraine8
+
+Theme: froczh
+ | Credg@DESKTOP-U9C8NE9  D:  ...  registro-clientes_js-mysql  main   18.18.2    0s   22:10:26 | Tuesday 
+❯ ]0;registro-clientes_js-mysql @ DESKTOP-U9C8NE9
+
+Theme: gmay
+   Credg@DESKTOP-U9C8NE9   D:\Desarrollo de Software\registro-clientes_js-mysql  2023-10-17 22:10:27   main   18.18.2   
+ 
+
+Theme: grandpa-style
+  D:  ...  registro-clientes_js-mysql  main  0s                          Credg / DESKTOP-U9C8NE9  10:10:27 PM 
+❯ ]0;registro-clientes_js-mysql @ DESKTOP-U9C8NE9
+
+Theme: gruvbox
+   D:\Desarrollo de Software\registro-clientes_js-mysql   main ● ]0;registro-clientes_js-mysql
+
+Theme: hacker
+[1B┏[﩯]-[  D:\Desarrollo de Software\registro-clientes_js-mysql]-[main]-[18.18.2 ]-[0s]~                  ~[22:10:28]┐
+┖[Credg@DESKTOP-U9C8NE9]-$ 7                                                                                          <┘8
+
+Theme: half-life
+Credg in D:\Desarrollo de Software\registro-clientes_js-mysql on main λ 
+
+Theme: honukai
+# Credg in DESKTOP-U9C8NE9  D:  Desarrollo de Software  registro-clientes_js-mysql on git:main             [22:10:29]
+➜ 
+
+Theme: hotstick.minimal
+ D:\..\registro-clientes_js-mysql   main ]0;registro-clientes_js-mysql :: pwsh
+
+Theme: hul10
+
+┌ ⠀  pwsh⠀  DESKTOP-U9C8NE9Credg⠀  main⠀                                                       0ms · 17/10/23 22:10
+└[ D: »  » registro-clientes_js-mysql ]
+❯]0;pwsh in <registro-clientes_js-mysql>
+
+Theme: hunk
+D:\Desarrollo de Software\registro-clientes_js-mysql   18.18.2   main                     0ms  Credg  pwsh 
+❯
+
+Theme: huvix
+@Credg ➜ D:\..\registro-clientes_js-mysql git(main) 
+[ 100]
+
+Theme: if_tea
+
+   48 RAM: 4/8GB   0ms                                                                                main ≡ 
+╭─  pwsh   10:10:32 PM | Tuesday   D:  Desarrollo de Software  registro-clientes_js-mysql ]0;registro-clientes_js-mysql
+
+Theme: illusi0n
+ $Credg: D:/Desarrollo de Software/registro-clientes_js-mysql on  main ≡ ❯ 7                                49% 4/8GB 8
+
+Theme: iterm2
+ Credg   D:/Desarrollo de Software/registro-clientes_js-mysql  main                     100    22:10:33 
+🚀 ]0;pwsh in registro-clientes_js-mysql
+
+Theme: jandedobbeleer
+ Credg    registro-clientes_js-mysql   main ≡   18.18.2   0ms⠀  ]0;pwsh in registro-clientes_js-mysql
+
+Theme: javilabs
+┏[D:\Desarrollo de Software\registro-clientes_js-mysql][ main≡]
+┖[❯
+
+Theme: jblab_2021
+   D:  ...  registro-clientes_js-mysql   main  22:10  0s ]0;registro-clientes_js-mysql @ DESKTOP-U9C8NE9
+
+Theme: jonnychipz
+ Credg@DESKTOP-U9C8NE9  
+    D:   registro-clientes_js-mysql   main  ❯ ]0;pwsh :: registro-clientes_js-mysql
+
+Theme: json
+⬢  registro-clientes_js-mysql ⚡ main ◉ 
+>
+
+Theme: jtracey93
+Credg  D:\Desarrollo de Software\registro-clientes_js-mysql  branch (main)  22:10:36 
+
+Theme: jv_sitecorian
+D:\..\registro-clientes_js-mysql   main ≡   ♥                                          10:10:37 PM   0ms  
+   Credg ]0; registro-clientes_js-mysql 7                                                                                                    pwsh8
+
+Theme: kali
+┌──(Credg㉿DESKTOP-U9C8NE9)-[D:/Desarrollo de Software/registro-clientes_js-mysql]-[main]                       0ms  ✓ 
+└─$ 
+
+Theme: kushal
+    pwsh    main ≡                                                                                      0ms 
+╭─ 22:10:38 |  17 Oct, Tuesday |  [m in  D:  Desarrollo de Software  registro-clientes_js-mysql 
+╰─❯ ]0;pwsh in registro-clientes_js-mysql]9;9;D:\Desarrollo de Software\registro-clientes_js-mysql\
+
+Theme: lambda
+  D:\..\registro-clientes_js-mysql  git:main 
+
+Theme: lambdageneration
+╭─   0ms  D:\Desarrollo de Software\registro-clientes_js-mysql  main   100    Credg@DESKTOP-U9C8NE9  22:10:39, 17  
+╰─
+
+Theme: larserikfinholt
+ Credg    registro-clientes_js-mysql   main ≡  0ms⠀  ]0;pwsh in registro-clientes_js-mysql
+
+Theme: lightgreen
+   registro-clientes_js-mysql main ]9;9;D:\Desarrollo de Software\registro-clientes_js-mysql\7                                                     0ms  49%   100 22:10:408
+
+Theme: loyal
+ ● registro-clientes_js-mysql git:( main)
+
+Theme: M365Princess
+Credg  registro-clientes_js-mysql  ➜ ( main)   18.18.2  ♥ 22:10 
+
+Theme: madunicorn
+┌ registro-clientes_js-mysql  main≡  羽 0ms⠀                                                                  22:10:41└ ->  ]9;9;D:\Desarrollo de Software\registro-clientes_js-mysql\
+
+Theme: marcduiker
+  registro-clientes_js-mysql   main ≡   
+
+Theme: markbull
+┌    Credg@DESKTOP-U9C8NE9   D:\Desarrollo de Software\registro-clientes_js-mysql     main      0ms 
+└ $]0;registro-clientes_js-mysql
+
+Theme: material
+❯❯ registro-clientes_js-mysql git:(main) 22:10 
+
+Theme: microverse-power
+  Credg2023-10-17 22:10:43  D:/Desarrollo de Software/registro-clientes_js-mysql  main   
+➜ 
+
+Theme: mikau
+░  ⎬◖ Credg👽@DESKTOP-U9C8NE9🔊 ♬♩♫♪♬♩ ◗◖ # = pwsh ◗◖  = D:\..\registro-clientes_js-mysql ◗   main ≡  npm   18.18.2
+░ ⚡⎬
+
+Theme: minimal
+ D:/Desarrollo de Software/registro-clientes_js-mysql main
+  
+
+Theme: mojada
+
+  Credg@DESKTOP-U9C8NE9   D/D/registro-clientes_js-mysql   main ≡  $]0;Credg@DESKTOP-U9C8NE9 : registro-clientes_js-mysql
+
+Theme: montys
+ DESKTOP-U9C8NE9    D:\Desarrollo de Software\registro-clientes_js-mysql  ➜ (   main)   18.18.2   0ms   10:10 PM  
+ ⚡Credg ❯❯
+
+Theme: mt
+Credg  registro-clientes_js-mysql  ➜ ( main)   18.18.2  ♥ 22:10 
+
+Theme: multiverse-neon
+ D:\..\registro-clientes_js-mysql   main ≡                                                        npm   18.18.2
+➜ 
+
+Theme: nebular
+╭  Credg@DESKTOP-U9C8NE9  D:/Desarrollo de Software/registro-clientes_js-mysql   main ≡  48% 4/8GB -0ms   
+╰ 22:10:47  ]0;pwsh - registro-clientes_js-mysql 7                                                                                                     8
+
+Theme: negligible
+ D:\Desarrollo de Software\registro-clientes_js-mysql :: main ≡                      |  18.18.2 |  100  | 22:10:48 
+➜ 
+
+Theme: neko
+😺💬 Meow! What should I do next? ...                                  🏡 registro-clientes_js-mysql git:(main)⌚ 22:10 😀💬 ~ 
+
+Theme: night-owl
+╭─   D:   registro-clientes_js-mysql   main ≡  0ms              pwsh  48%    18.18.2  22:10:49
+╰─]0;registro-clientes_js-mysql
+
+Theme: nordish
+ D:\Desarrollo de Software\registro-clientes_js-mysql  18.18.2 on main 
+└─ 
+
+Theme: nordtron
+┏[Credg]--[main ≡]
+┖[D:\Desarrollo de Software\registro-clientes_js-mysql]
+  
+
+Theme: nu4a
+ Credg  D:registro-clientes_js-mysql  main ]0;Credg ➔ 📁registro-clientes_js-mysql
+
+Theme: onehalf.minimal
+
+Credg@DESKTOP-U9C8NE9 D:\Desarrollo de Software\registro-clientes_js-mysql git:(main)
+(0) > ]0;Credg@DESKTOP-U9C8NE9
+
+Theme: paradox
+ Credg@DESKTOP-U9C8NE9  D:  Desarrollo de Software  registro-clientes_js-mysql  main 
+❯ 
+
+Theme: pararussel
+❯❯ registro-clientes_js-mysql git:(main)
+ 
+
+Theme: patriksvensson
+
+D://registro-clientes_js-mysql on  main ≡
+22:10:53 ❯
+
+Theme: peru
+ Credg@DESKTOP-U9C8NE9  main ≡                                                             18.18.2    22:10:53  
+D:\Desarrollo de Software\registro-clientes_js-mysql ❯ 
+
+Theme: pixelrobots
+▓   Credg   D:   registro-clientes_js-mysql   main≡  ❯ ]0;pwsh :: registro-clientes_js-mysql
+
+Theme: plague
+ Credg@DESKTOP-U9C8NE9   registro-clientes_js-mysql   main   18.18.2   pwsh   
+
+Theme: poshmon
+󰐝 DESKTOP-U9C8NE9  D:    registro-clientes_js-mysql   main ≡                     18.18.2   17, 22:10:55 
+  ]0;registro-clientes_js-mysql ]9;9;D:\Desarrollo de Software\registro-clientes_js-mysql\
+
+Theme: powerlevel10k_classic
+   D:\Desarrollo de Software\registro-clientes_js-mysql  main                 Credg@DESKTOP-U9C8NE9   22:10:56  
+❯ 
+
+Theme: powerlevel10k_lean
+D:\Desarrollo de Software\registro-clientes_js-mysql main ❯ 7                                                  22:10:56 8
+
+Theme: powerlevel10k_modern
+   D:\Desarrollo de Software\registro-clientes_js-mysql  main                                         22:10:56 
+❯ 
+
+Theme: powerlevel10k_rainbow
+╭─    D:\Desarrollo de Software\registro-clientes_js-mysql    main ≡             18.18.2   ✔  22:10:57  ─╮
+╰─]0;pwsh in registro-clientes_js-mysql 7                                                                                                                   ─╯8
+
+Theme: powerline
+ Credg@DESKTOP-U9C8NE9  D:\Desarrollo de Software\registro-clientes_js-mysql  main 
+
+Theme: probua.minimal
+Credg@DESKTOP-U9C8NE9 D:\Desarrollo de Software\registro-clientes_js-mysql git:main
+> 
+
+Theme: pure
+Credg D:\Desarrollo de Software\registro-clientes_js-mysql main ≡ 
+❯ ]0; D:\Desarrollo de Software\registro-clientes_js-mysql
+
+Theme: quick-term
+
+╭─   Credg  D:  Desarrollo de Software  registro-clientes_js-mysql   main                0ms   22:10:59 
+╰─ $
+
+Theme: remk
+Credg  registro-clientes_js-mysql  git(main)  22:10 
+
+Theme: robbyrussell
+➜ registro-clientes_js-mysql git:(main)
+
+Theme: rudolfs-dark
+  Credg  D:  Desarrollo de Software  registro-clientes_js-mysql [  main ≡ ] 
+
+Theme: rudolfs-light
+  Credg [ main ≡]  D:\Desarrollo de Software\registro-clientes_js-mysql 
+
+Theme: sim-web
+                                                                                                  0s   18.18.2 and   
+ D: ❯ Desarrollo de Software ❯ registro-clientes_js-mysql ( main)
+❯_: ]0;registro-clientes_js-mysql
+
+Theme: SimpleMonokai
+D://registro-clientes_js-mysql ❯ main ≡ ❯   
+22:11:06 ❯
+
+Theme: sky
+┌ @Credg in ~/registro-clientes_js-mysql on main                                                         22:11:07  0ms 
+└$]0;Credg ➔ 📁registro-clientes_js-mysql
+
+Theme: slim
+▓   CredgDESKTOP-U9C8NE9   D:   registro-clientes_js-mysql   main ≡                 18.18.2  22:11:07  ▓
+~#@❯]0;pwsh :: registro-clientes_js-mysql 7                                                                                                             ❮    8
+
+Theme: slimfat
+▓   CredgDESKTOP-U9C8NE9   D:\Desarrollo de Software\registro-clientes_js-mysql   main ≡   18.18.2  22:11:08  ▓
+ ~#@❯ ]0;pwsh :: registro-clientes_js-mysql 7                                                                                                           ❮    8
+
+Theme: smoothie
+
+⎧ ⟨D 🢖 D 🢖 registro-clientes_js-mysql⟩ ⟨⟟main ≡⟩◦ ☢18.18.2                                                       ⟨0ms⟩ ⎫
+⎩⟩⟩⟩⟩⟩⟩ 7                                                                                                    ⟨22:11:08⟩ ⎭8
+
+Theme: sonicboom_dark
+   D:    registro-clientes_js-mysql  main  0s                          Credg / DESKTOP-U9C8NE9  10:11:09 PM 
+ 
+
+Theme: sonicboom_light
+   D:    registro-clientes_js-mysql  main  0s                          Credg / DESKTOP-U9C8NE9  10:11:10 PM 
+ 
+
+Theme: sorin
+Credg@DESKTOP-U9C8NE9 D:\Desarrollo de Software\registro-clientes_js-mysql git:main ❯❯❯ 
+
+Theme: space
+ Credg: registro-clientes_js-mysql on main [ 18.18.2] ❯ 
+
+Theme: spaceship
+Credg in registro-clientes_js-mysql on   main 
+❯
+
+Theme: star
+registro-clientes_js-mysql on main ≡ via  18.18.2 
+➜ 
+
+Theme: stelbent-compact.minimal
+
+┌ Credg@DESKTOP-U9C8NE9  D:\Desarrollo de Software\registro-clientes_js-mysql   main ≡  | 22:11:12
+└$]0; registro-clientes_js-mysql 
+
+Theme: stelbent.minimal
+                                                                                                         pwsh | 22:11:12
+┌ Credg@DESKTOP-U9C8NE9  registro-clientes_js-mysql   main ≡ 
+└ $
+
+Theme: takuya
+╭─ pwsh  D:\Desarrollo de Software\registro-clientes_js-mysql   main                     18.18.2   22:11:13 
+╰─❯ 
+
+Theme: the-unnamed
+registro-clientes_js-mysql on  main is  1.0.0 via  18.18.2 and   
+❯ 
+
+Theme: thecyberden
+ DESKTOP-U9C8NE9   D:\Desarrollo de Software\registro-clientes_js-mysql   main ≡                     22:11:20 
+ pwsh  ]0;registro-clientes_js-mysql
+
+Theme: tiwahu
+  Credg@DESKTOP-U9C8NE9  D:\…\registro-clientes_js-mysql   main 
+❯ 
+
+Theme: tokyo
+┏[ Credg from  DESKTOP-U9C8NE9][ 0s][ RAM: 4/8GB][ Tuesday at 10:11:20 PM][ main ≡]
+┖[D:\Desarrollo de Software\registro-clientes_js-mysql]
+└─Δ
+
+Theme: tokyonight_storm
+➜ registro-clientes_js-mysql ⚡( main)                                                                        18.18.2 
+▶]0; registro-clientes_js-mysql :: 
+
+Theme: tonybaloney
+  registro-clientes_js-mysql   main 
+
+Theme: uew
+
+~[m Credg   main  pwsh                                                             0s 󰇝 Tuesday at 10:11 PM   18.18.2 
+~  D: / Desarrollo de Software / registro-clientes_js-mysql ~ ]0;registro-clientes_js-mysql
+
+Theme: unicorn
+    D:/Desarrollo de Software/registro-clientes_js-mysql   main ≡   22:11:23   0ms⠀
+🦄 ]0;Credg@DESKTOP-U9C8NE9 in D:\Desarrollo de Software\registro-clientes_js-mysql
+
+Theme: velvet
+   D:/Desarrollo de Software/registro-clientes_js-mysql   main ≡  0ms   
+ 22:11:23 ]0;pwsh - registro-clientes_js-mysql 7                                                                                                         8
+
+Theme: wholespace
+   ♥ 22:11:24  CPU: 49% | RAM: 4/7GB   0ms                                          18.18.2   main ≡ 
+  D:\Desarrollo de Software\registro-clientes_js-mysql   ]0;registro-clientes_js-mysql
+
+Theme: wopian
+ D:\Desarrollo de Software\registro-clientes_js-mysql :: git(main)                              /npm 18.18.2 22:11:25 
+➜ 
+
+Theme: xtoys
+Credg@DESKTOP-U9C8NE9 D:\..\registro-clientes_js-mysql HEAD:main ❯❯❯ 
+
+Theme: yellowish
+ 22:11   registro-clientes_js-mysql   main ≡    
+
+Theme: ys
+# Credg @ DESKTOP-U9C8NE9 in D:\Desarrollo de Software\registro-clientes_js-mysql on git:main [22:11:31]
+$
+
+Theme: zash
+@Credg ➜ registro-clientes_js-mysql git(main)
+
+
+Themes location: C:\Users\Credg\AppData\Local\Programs\oh-my-posh\themes
+
+To change your theme, adjust the init script in C:\Users\Credg\Documents\PowerShell\Microsoft.PowerShell_profile.ps1.
+Example:
+  oh-my-posh init pwsh --config 'C:\Users\Credg\AppData\Local\Programs\oh-my-posh\themes\jandedobbeleer.omp.json' | Invoke-Expression
+ 22:11   registro-clientes_js-mysql   main ≡    
+PS>. $PROFILE
+╭─    pwsh  registro-clientes_js-mysql                                      1s 400ms    18.18.2   main  Credg
+╰─❯❯ 
