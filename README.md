@@ -7,7 +7,7 @@ Here will be installed my modules for pwsh like PSReadline,posh-git and Terminal
 ## Profile File
 Here will be configured my profile to pwsh
 
-## Configuration keybinding to windows terminal
+## Keybinding configuration to windows terminal
 This config create a key bind to windows terminal like linux terminal (CTRL + ALT + T)
 
 ## History
